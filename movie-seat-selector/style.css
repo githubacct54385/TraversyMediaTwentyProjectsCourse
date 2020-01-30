@@ -6,13 +6,13 @@
 
 body {
   background-color: #242333;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  color: #fff;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: "Lato", "sans-serif";
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
@@ -27,9 +27,9 @@ body {
   font-size: 14px;
   margin-left: 10px;
   padding: 5px 15px 5px 15px;
-  appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .container {
@@ -77,7 +77,7 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   color: #777;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
@@ -101,7 +101,7 @@ body {
   background-color: #fff;
   height: 70px;
   width: 100%;
-  margin: 15px 15px;
+  margin: 15px 0;
   transform: rotateX(-45deg);
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
 }
